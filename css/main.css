@@ -1,0 +1,136 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Nov 2019, 12:48:27
+    Author     : joshw
+*/
+
+body { 
+    font-family: 'Arvo';
+    background-color: #f4f4f4;
+}
+
+.navbar-default {
+    position: relative;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 2px -2px #333333;
+}
+
+.navbar-header {
+    float: none;
+    margin: 0 auto;
+}
+    
+.nav-middle {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    float: none;
+    margin: 0 auto;
+}
+
+.navbar-default a {
+    color: #2a2b2b;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-default a:hover {
+    text-decoration: underline #ffffff;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    /*color: #2a2b2b;
+    border: 0px solid #2a2b2b;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;*/
+    border: 1px solid #2a2b2b;
+    padding: 0 20px;
+    length: 20px;
+    width: 250px;
+    caret-color:white;
+    transition: width 0.4s linear;
+    border-radius: 50px 50px 50px 50px;
+    }
+
+    .search_input:hover{
+    /*border: 1px solid #2a2b2b;
+    padding: 0 20px;
+    length: 20px;
+    width: 250px;
+    caret-color:white;
+    transition: width 0.4s linear;
+    border-radius: 50px 50px 50px 50px;*/
+    background-color: #333333;
+    color: #ffffff;
+    }
+
+    /*.searchbar:hover > .search_icon{
+    background: #2a2b2b;
+    color: white;
+    }*/
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    .icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+
+@media screen and (max-width: 600px) {
+    
+    .nav-centre-right a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
