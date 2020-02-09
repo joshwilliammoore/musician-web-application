@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Feb 2020, 14:08:32
+    Author     : joshw
+*/
+
+#abutton {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #0090FF;
+}
+
+#bbutton {
+    width: 380px;
+    height: 60px;
+    padding: 10px;
+    margin: 25px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #0090FF;
+}
+
+#abutton:hover {
+    background-color: #0279D5;
+    box-shadow: 0px 2px 6px -2px #333333;
+}
+
+#abutton:active {
+    background-color: #006FC5;
+    box-shadow: none;
+}
+
+#bbutton:hover {
+    background-color: #0279D5;
+    box-shadow: 0px 2px 6px -2px #333333;
+}
+
+#bbutton:active {
+    background-color: #006FC5;
+    box-shadow: none;
+}
+
+.account-button {
+    margin-top: 100px;
+}
+
+.account-button {
+    margin-top: 100px;
+}
+
+.change-pic {
+    visibility: hidden;
+}
+
+.change-pic :hover {
+    visibility: visible;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    opacity: 30%;
+}
