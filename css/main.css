@@ -13,14 +13,54 @@ body {
     background-color: /*#f4f4f4*/#ffffff;
 }
 
+h1 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.comments {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.top-prof {
+    font-size: 12px;
+}
+
+.account {
+    width: 280px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 6px -2px #333333;
+    margin: 10px;
+    margin-left: 0;
+    display: inline-block;
+}
+
 .image-cropper {
     display: inline-block;
     position: relative;
 }
 
+#pp {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
 #profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -50,10 +90,24 @@ body {
     box-shadow: 0px 2px 6px -2px #333333;
 }
 
+.signup-box {
+    width: 450px;
+    height: 610px;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 6px -2px #333333;
+}
+
 .post-box {
-    width: 550px;
+    width: 500px;
     border: 1px solid #333333;
     margin: 50px;
+}
+
+.post-box :hover {
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .caption {
@@ -61,7 +115,7 @@ body {
     resize: none;
     border: none;
     padding: 10px;
-    color: #B9B9B9;
+    color: #333333;
     background-color: #f7f7f7;
     box-shadow: 0px 2px 6px -2px #333333;
 }
@@ -75,7 +129,7 @@ body {
 }
 
 .container {
-  float:contour;
+    float:contour;
 }
 
 .images {
@@ -84,4 +138,63 @@ body {
     margin-right: auto;
 }
 
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 500px;
+    cursor: pointer;
+}
+
+.bio {
+    resize: none;
+}
+
+#pp img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    
+    
+    border: 1px solid #ccc;
+}
+
+#pp {
+    margin-left: auto;
+    margin: 5px;
+    display: inline-block;
+}
+
+.see-all {
+    text-align: right;
+}
+
+.content {
+    display: flex;
+}
+
+.post-image {
+    width: 1000px;
+    overflow: hidden;
+}
+
+.post-image img {
+    margin-right: 0px;
+    float: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+.post-image .comments {
+    /*margin-left: 0px;
+    display: inline-block;*/
+    width: 350px;
+    height: 450px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 6px -2px #333333;
+}
 
