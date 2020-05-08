@@ -12,20 +12,24 @@
  * @author joshw
  */
 class Users {
-    private $user_id;
-    private $username;
-    private $email_address;
-    private $name;
-    private $password;
-    private $profile_picture;
-    private $contact_no;
-    private $type;
-    
-    function __get($all){
+
+    private $User_ID;
+    private $Username;
+    private $Email_Address;
+    private $Name;
+    private $Password;
+    private $Profile_Picture;
+    private $Contact_No;
+    private $Type;
+    private $Occupation;
+    private $Biography;
+
+    function __get($all) {
         return $this->$all;
     }
 
-    function __set($all,$value){
-	$this->$all = $value;
+    function __set($all, $value) {
+        $this->$all = $value;
     }
+
 }
