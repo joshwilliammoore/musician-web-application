@@ -21,7 +21,7 @@ and open the template in the editor.
     text-align: center;
     padding: 6px 8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 
@@ -31,7 +31,7 @@ and open the template in the editor.
     font-family: 'Arvo';
     font-size: 20px;
 }
-    
+
 .nav-middle {
     float: none;
     margin: 0 auto;
@@ -40,9 +40,13 @@ and open the template in the editor.
     align-items:center;
 }
 
-
 .navbar a:hover {
     /*text-decoration: underline #ffffff;*/
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items:center;
     background-color: #333333;
     color: #ffffff;
 }
@@ -92,14 +96,14 @@ li {
     color: #ffffff;
 }
 
-    /*.searchbar:hover > .search_icon{
-    background: #2a2b2b;
-    color: white;
-    }*/
+/*.searchbar:hover > .search_icon{
+background: #2a2b2b;
+color: white;
+}*/
 
 .search_icon{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     float: left;
     display: flex;
     justify-content: center;
@@ -110,8 +114,8 @@ li {
 }
 
 .icon{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     float: right;
     display: flex;
     justify-content: center;
