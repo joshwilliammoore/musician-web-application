@@ -12,17 +12,19 @@
  * @author joshw
  */
 class Posts {
-    private $post_id;
-    private $picture;
-    private $caption;
-    private $date;
-    private $user_ID;
-    
-    function __get($post){
+
+    private $Post_ID;
+    private $Picture;
+    private $Caption;
+    private $Date;
+    private $User_ID;
+
+    function __get($post) {
         return $this->$post;
     }
-    
-    function __set($post, $value){
+
+    function __set($post, $value) {
         $this->$post = $value;
     }
+
 }
