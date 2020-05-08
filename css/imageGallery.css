@@ -10,13 +10,17 @@ and open the template in the editor.
 
 
 div.image {
-    margin: 10px;
+    margin: 8px;
     display: inline-block;
 }
 
 div.image img {
-    width: 100%;
-    height: auto;
+    object-fit: cover;
+
+  /*width: 300px;
+  height: 300px;*/
+    
+    
     border: 1px solid #ccc;
 }
 
@@ -24,24 +28,28 @@ div.image img:hover {
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.32), 0 0 0 0px rgba(0,0,0,0.16);
 }
 
-#grid {
+#gridview {
+    justify-content: space-around;
     margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1224px) {
-    div.image {
-        width: 300px;
+    div.image img {
+        width: 280px;
+        height: 280px;
     }
 }
 
 @media screen and (min-width: 1044px) and (max-width: 1224px) {
-    div.image {
+    div.image img {
         width: 250px;
+        height: 250px;
     }
 }
 
 @media screen and (min-width: 845px) and (max-width: 1044px) {
-    div.image {
+    div.image img {
+        width: 200px;
         width: 200px;
     }
 }
